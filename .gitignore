@@ -6,3 +6,12 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+
+# Local datasets (too large to track)
+egomotion.chunk_*/
+*.parquet
+
+# Training / demo outputs
+demos/outputs/
+*.pt
+*.ckpt
